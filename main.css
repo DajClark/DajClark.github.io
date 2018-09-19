@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	background-color: #000;
+}
+
+html, body { 
+	height: 100%; margin: 0; 
+}
+
+/*********************************************
+					NAVBAR                     
+*********************************************/
+
+#navbar {
+	width: 100%;
+	background-color: #101010;
+	float: left;
+	border-bottom: 2px solid #fff;
+	position: fixed;
+	max-height: 10%;
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0; 
+	padding: 0;
+
+}
+
+#navbar li {
+	font-family: 'Bungee', cursive;
+	display: inline;
+	padding: 10px 15px;
+	font-size: 24px;
+}
+
+#navbar li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#navbar li:hover {
+	background-color: #222;
+}
+
+.title {
+	float: left;
+}
+
+.menu-item {
+	float: right;
+	width: 120px;
+	text-align: center;
+}
+
+.shadow-color {
+	text-shadow: -2px -1px 0px #1af437,
+    	         -4px -2px 0px #f4131b;
+}
+
+
+/*********************************************
+					 MAIN                  
+*********************************************/
+
+#projects {
+	margin-top: 10%;
+	margin: 6% 5% 5% 5%;
+	width: 90%;
+	height: 75%;
+	background-color: #101010;
+	float: left;
+	
+}
+
+/*********************************************
+				    CONTACT                  
+*********************************************/
+
+#contact {
+	margin-top: 10%;
+	margin: 6% 15% 4% 15%;
+	width: 70%;
+	height: 75%;
+	background-color: #101010;
+	float: left;
+	
+}
+
+.bio {
+	margin: 5%;
+	float: left;
+	max-width: 35%;
+}
+
+.bio img {
+	margin-left: 10%;
+	border-radius: 100%;
+	min-width: 50%;
+}
+
+.bio p, .contact-info p {
+	color: #fff;
+	font-family: 'Bungee', cursive;
+	font-size: 15px;
+}
+
+.contact-info {
+	margin: 5%;
+	float: left;
+	max-width: 35%;
+}
+
+
+/*********************************************
+					  CV                     
+*********************************************/
+
+iframe {
+	
+	margin-top: 100px;
+	margin-left: 25%;
+	height: 750px;
+	width: 50%;
+	top: 50%;
+	left: 50%;
+}
+
+/*********************************************
+					FOOTER                     
+*********************************************/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background-color: #101010;
+    text-align: center;
+    border-top: 2px solid #fff;
+}
+
+.social-footer {
+	list-style: none;
+	padding-left: 0;
+}
+
+.social-footer li {
+	display: inline; 
+}
+
+.s-icon {
+	width: 30px;
+	height: 30px;
+}
